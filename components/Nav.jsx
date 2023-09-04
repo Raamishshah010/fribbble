@@ -2,7 +2,7 @@ import Link from "next/link"
 
 const Nav = () => {
     return (
-        <nav className=" flex justify-between items-center">
+        <nav className=" flex justify-between items-center max-md:hidden ">
             <ul className="flex items-center gap-6 text-[19px] font-medium font-poppins">
                 <li>
                     <Link href='/'>Find talent</Link>

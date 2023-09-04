@@ -12,6 +12,9 @@ module.exports = {
         inter: ['Inter', 'sans-serif'],
         'mona': ['Mona-Sans', 'sans-serif'],
         'poppins': ['Poppins', 'sans'],
+        'shadows': ['Shadows Into Light', 'sans'],
+        'markers': ['Permanent Marker', 'sans'],
+        'cardo': ['Cardo', 'sans'],
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

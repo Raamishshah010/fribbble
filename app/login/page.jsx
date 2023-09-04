@@ -19,14 +19,14 @@ const page = () => {
                 <h1 className="text-[32px] font-bold">Sign in to Fribbble</h1>
 
                 <div className="mt-10 border-[2px] border-gray-800 px-2 py-6 rounded-full flex justify-center items-center gap-4 cursor-pointer">
-                    <span>
+                    
                             <Image
                                 src='/google.png'
                                 alt='Google Image'
                                 width={24}
                                 height={24}
                             />
-                    </span>
+                    
                     <p className="font-ubuntu font-semibold text-[16px]">Sign in with Google</p>
                 </div>
 
@@ -35,7 +35,7 @@ const page = () => {
                     <div>
                         <p className="font-ubuntu text-[18px] text-gray-600">or sign in with email</p>
                     </div>
-                    <div className=" h-[1px] w-[180px] bg-slate-600 max-lg:hidden"></div>
+                    <div className="h-[1px] w-[180px] bg-slate-600 max-lg:hidden"></div>
 
                 </div>
 
