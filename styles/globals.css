@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .app {
+  @apply relative z-10  max-w-full mx-auto sm:px-16 px-2;
+} */
+
+@import url('https://fonts.cdnfonts.com/css/mona-sans');
+
+body {
+  background: #fff;
+  font-family: 'Mona Sans', sans-serif;
+}
